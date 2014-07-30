@@ -25,6 +25,7 @@ Page 198 there is a typo (Add apache recipe instead of add iis recipe)
 Review questions are not clear.  Hard to understand.  some are also trick questions - nooo!
 Jumped past sections we didn't do the first day.  need to pick up where we left off
 page 285 cookbook names don't match up
+nytimes.com hosts update doesn't actually work.  need to update to www.nytimes.com or wildcard (so the example actually works)
 
 Notes:
 Node: anything managed by chef
