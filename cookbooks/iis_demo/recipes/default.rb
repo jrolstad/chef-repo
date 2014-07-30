@@ -7,12 +7,6 @@ service "w3svc" do
   action [:enable, :start ]
 end
 
-#node.default["iis_demo"]["indexfile"] = "Default2.htm"
-#cookbook_file "c:\\inetpub\\wwwroot\\Default.htm" do
-#  source node["iis_demo"]["indexfile"]
-#  rights :read, "Everyone"
-#end
-
 powershell_script "disable default site" do
     code 'get-website "Default Web Site*" | where {$_.state -ne "Stopped"} | Stop-Website'
 end

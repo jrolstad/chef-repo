@@ -26,7 +26,10 @@ Review questions are not clear.  Hard to understand.  some are also trick questi
 Jumped past sections we didn't do the first day.  need to pick up where we left off
 page 285 cookbook names don't match up
 nytimes.com hosts update doesn't actually work.  need to update to www.nytimes.com or wildcard (so the example actually works)
-
+need better time management, take things offline when needed to keep the class going
+  maybe use the second person a resource for this
+  (we wasted over an hour troubleshooting 1 person's issue)
+  
 Notes:
 Node: anything managed by chef
 Resource: something that chef can configure
