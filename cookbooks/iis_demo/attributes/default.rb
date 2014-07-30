@@ -1,1 +1,1 @@
-default["iis_demo"]["indexfile"] = "default1.htm"
+default["iis_demo"]["indexfile"] = "default2.htm"
