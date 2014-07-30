@@ -8,6 +8,6 @@ service "w3svc" do
 end
 
 cookbook_file 'c:\inetpub\wwwroot\default.htm' do
-  source "default.htm"
+  source node["iis_demo"]["indexfile"]
   rights :read, "Everyone"
 end

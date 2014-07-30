@@ -1,4 +1,5 @@
 Feedback:
+-- Day 1 --
 Better setup instructions
 * Too many emails
 * Part of the doc?
@@ -19,6 +20,11 @@ Start on time - many late times
 source code for course on github
 Ruby 101
 Page 198 there is a typo (Add apache recipe instead of add iis recipe)
+
+-- Day 2 --
+Review questions are not clear.  Hard to understand.  some are also trick questions - nooo!
+Jumped past sections we didn't do the first day.  need to pick up where we left off
+
 
 Notes:
 Node: anything managed by chef
