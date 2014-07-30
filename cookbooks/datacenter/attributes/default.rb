@@ -1,1 +1,1 @@
-default["datacenter"]["location"] = "china"
+default["datacenter"]["location"] = "russia"
