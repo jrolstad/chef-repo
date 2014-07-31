@@ -1,6 +1,6 @@
 name "webserver"
 description "Web Server"
-run_list "recipe[iis_demo]"
+run_list "role[base]","recipe[iis_demo]"
 default_attributes ({
   "iis_demo" =>{
     "sites"=>{
