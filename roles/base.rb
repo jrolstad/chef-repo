@@ -1,3 +1,3 @@
 name "base"
 description "Base Server Role"
-run_list "recipe[hosts]","recipe[users]"
+run_list "recipe[chef-client::delete_validation]","recipe[chef-client]","recipe[hosts]","recipe[users]"
