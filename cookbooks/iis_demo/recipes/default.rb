@@ -23,9 +23,14 @@ node['iis_demo']['sites'].each do |site_name, site_data|
     powershell_script "new website for #{site_name}" do
         code <<-EOH
             Import-Module webadministration
-            if(-not(test-path IIS:\\Sites\\#{site_name})){
-                New-WebSite -name #{site_name} -Port #{site_data['port']} -PhysicalPath #{site_dir} -ApplicationPool #{site_name}
+
+            if((test-path IIS:\\Sites\\#{site_name}))
+            {
+                Remove-Website -name #{site_name}
             }
+
+            New-WebSite -name #{site_name} -Port #{site_data['port']} -PhysicalPath #{site_dir} -ApplicationPool #{site_name}
+
         EOH
     end
 
