@@ -29,7 +29,10 @@ nytimes.com hosts update doesn't actually work.  need to update to www.nytimes.c
 need better time management, take things offline when needed to keep the class going
   maybe use the second person a resource for this
   (we wasted over an hour troubleshooting 1 person's issue)
-  
+
+-- Day 3 --
+
+
 Notes:
 Node: anything managed by chef
 Resource: something that chef can configure
