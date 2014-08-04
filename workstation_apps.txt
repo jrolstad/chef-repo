@@ -1,0 +1,5 @@
+chocolatey
+tortoisegit
+atom
+chef-client
+GoogleChrome
